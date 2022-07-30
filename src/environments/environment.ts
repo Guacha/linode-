@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  SERVER_ADDR: '172.105.157.98',
+  LINODE_API_KEY: '45af70e74606c89855eaff0e07326a2bd5fdde03a7cff2dfedbc592cd8254fca',
+  LINODE_API_URL: 'https://api.linode.com/v4'
 };
 
 /*
